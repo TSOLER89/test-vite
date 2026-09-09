@@ -3,6 +3,7 @@ import List from './components/List'
 import Footer from './components/Footer'
 import ClickButton from './components/ClickButton'
 import ToggleSwitch from './components/ToggleSwitch'
+import ProfileCard from './components/ProfileCard'
 import './App.css'
 
 function App() {
@@ -12,6 +13,11 @@ function App() {
       <List />
       <ClickButton />
       <ToggleSwitch />
+      <ProfileCard
+        name="TSOLER HAYITIAN"
+        role="Frontend-utvecklare"
+        initials="TH"
+      />
       <Footer />
     </>
   )
