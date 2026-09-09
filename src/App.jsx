@@ -8,6 +8,7 @@ import TaskList from './components/TaskList'
 import StatusBadge from './components/StatusBadge'
 import ProgressBar from './components/ProgressBar'
 import Avatar from './components/Avatar'
+import StarRating from './components/StarRating'
 
 import './App.css'
 
@@ -34,6 +35,7 @@ function App() {
       <StatusBadge status="inactive" />
       <ProgressBar percent={65} />
       <Avatar name="TSOLER HAYITIAN" />
+      <StarRating rating={3} />
       <Footer />
     </>
   )
