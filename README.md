@@ -1,16 +1,30 @@
-# React + Vite
+# Mitt projekt
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Detta ar ett enkelt React-projekt byggt med Vite. Projektet visar hur en sida kan delas upp i flera komponenter och sattas ihop i App-komponenten.
 
-Currently, two official plugins are available:
+## Teknik
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React (Vite)
 
-## React Compiler
+## Komma igang
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Struktur
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Projektets huvudsakliga kod finns i src. Mappen [src/components](src/components) innehaller applikationens komponenter, till exempel Header, List och Footer. Filen [src/App.jsx](src/App.jsx) importerar komponenterna och renderar sidan.
+
+## Status
+
+Klart:
+- Projektet ar initierat med Vite.
+- Minst tre komponenter finns i [src/components](src/components).
+- [src/App.jsx](src/App.jsx) satter ihop komponenterna till en fungerande sida.
+- Git och GitHub-koppling ar pa plats.
+
+Kvar att gora:
+- Lagga till mer styling och layout.
+- Utoka innehallet med fler komponenter och data via props.
