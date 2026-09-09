@@ -4,6 +4,7 @@ import Footer from './components/Footer'
 import ClickButton from './components/ClickButton'
 import ToggleSwitch from './components/ToggleSwitch'
 import ProfileCard from './components/ProfileCard'
+import TaskList from './components/TaskList'
 import './App.css'
 
 function App() {
@@ -17,6 +18,12 @@ function App() {
         name="TSOLER HAYITIAN"
         role="Frontend-utvecklare"
         initials="TH"
+      />
+      <TaskList
+        tasks={[
+          { id: 1, text: "Handla mat", done: true },
+          { id: 2, text: "Städa", done: false },
+        ]}
       />
       <Footer />
     </>
