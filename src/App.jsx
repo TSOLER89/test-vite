@@ -7,6 +7,7 @@ import ProfileCard from './components/ProfileCard'
 import TaskList from './components/TaskList'
 import StatusBadge from './components/StatusBadge'
 import ProgressBar from './components/ProgressBar'
+import Avatar from './components/Avatar'
 
 import './App.css'
 
@@ -32,6 +33,7 @@ function App() {
       <StatusBadge status="pending" />
       <StatusBadge status="inactive" />
       <ProgressBar percent={65} />
+      <Avatar name="TSOLER HAYITIAN" />
       <Footer />
     </>
   )
