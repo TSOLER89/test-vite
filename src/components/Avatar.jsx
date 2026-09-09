@@ -7,17 +7,7 @@ function Avatar({ name, size = 48 }) {
     .join("");
 
   return (
-    <div
-      style={{
-        width: size, height: size,
-        borderRadius: "50%",
-        background: "#1E2761",
-        color: "white",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
+    <div className="avatar-chip" style={{ '--avatar-size': `${size}px` }}>
       {initials}
     </div>
   );

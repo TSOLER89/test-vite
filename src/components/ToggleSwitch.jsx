@@ -5,18 +5,14 @@ function ToggleSwitch() {
 
     return (
         <div
+            className={`toggle-switch ${on ? 'on' : 'off'}`}
             onClick={() => setOn(!on)}
-            style={{
-                width: 60, height: 30, borderRadius: 15,
-                background: on ? "#02C39A" : "#ccc",
-            }}
+            role="button"
+            tabIndex={0}
+            aria-pressed={on}
         >
             <div
-                style={{
-                    width: 26, height: 26, borderRadius: "50%",
-                    background: "white", margin: 2,
-                    transform: on ? "translateX(30px)" : "translateX(0)",
-                }}
+                className={`toggle-knob ${on ? 'on' : 'off'}`}
             />
         </div>
     );

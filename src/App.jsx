@@ -30,9 +30,11 @@ function App() {
           { id: 2, text: "Städa", done: false },
         ]}
       />
-      <StatusBadge status="active" />
-      <StatusBadge status="pending" />
-      <StatusBadge status="inactive" />
+      <div className="badge-row">
+        <StatusBadge status="active" />
+        <StatusBadge status="pending" />
+        <StatusBadge status="inactive" />
+      </div>
       <ProgressBar percent={65} />
       <Avatar name="TSOLER HAYITIAN" />
       <StarRating rating={3} />
