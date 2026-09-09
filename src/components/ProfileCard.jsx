@@ -15,6 +15,6 @@ export default ProfileCard;
 // Användning:
 <ProfileCard
   name="TSOLER HAYITIAN"
-  role="Frontend-utvecklare"
+  role="Frontend-Utvecklare"
   initials="TH"
 />
