@@ -1,5 +1,6 @@
 import React from 'react';
 
+/* Progress bar component */
 function ProgressBar({ percent }) {
   return (
     <div className="progress-track" style={{ '--progress-width': `${percent}%` }}>

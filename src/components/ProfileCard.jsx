@@ -2,6 +2,7 @@
 
 import React from 'react';
 
+/* Profile card component */
 function ProfileCard({ name, role, initials }) {
   return (
     <div className="card">

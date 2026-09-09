@@ -1,3 +1,5 @@
+
+/* Root variables */
 :root {
   --ui-bg: #f5f7fb;
   --ui-card: #ffffff;
@@ -9,6 +11,7 @@
   --ui-shadow: 0 10px 20px rgba(30, 49, 91, 0.1);
 }
 
+/* Global styles */
 body {
   background:
     radial-gradient(circle at 8% 9%, #e7f6f3 0%, transparent 34%),
@@ -17,6 +20,7 @@ body {
   color: var(--ui-text);
 }
 
+/* Root container styles */
 #root {
   width: min(860px, 100% - 2rem);
   margin: 1.2rem auto;
@@ -111,6 +115,7 @@ section li,
   text-align: center;
 }
 
+/* Avatar styles */
 .avatar {
   width: 48px;
   height: 48px;
@@ -124,6 +129,7 @@ section li,
   background: linear-gradient(145deg, var(--ui-accent-dark), #263270);
 }
 
+/* Badge row styles */
 .badge-row {
   display: flex;
   flex-wrap: wrap;
@@ -131,6 +137,7 @@ section li,
   align-items: center;
 }
 
+/* Status badge styles */
 .status-badge {
   display: inline-flex;
   align-items: center;
@@ -158,6 +165,7 @@ section li,
   background: #bf4f40;
 }
 
+/* Progress bar styles */
 .progress-track {
   width: 100%;
   height: 16px;
@@ -166,6 +174,7 @@ section li,
   overflow: hidden;
 }
 
+/* Progress fill styles */
 .progress-fill {
   width: var(--progress-width, 0%);
   height: 100%;
@@ -173,6 +182,7 @@ section li,
   background: #2a336f;
 }
 
+/* Avatar chip styles */
 .avatar-chip {
   width: var(--avatar-size, 48px);
   height: var(--avatar-size, 48px);
@@ -185,7 +195,7 @@ section li,
   font-weight: 700;
   box-shadow: 0 5px 12px rgba(24, 38, 74, 0.25);
 }
-
+/* Avatar chip root styles */
 #root > .avatar-chip {
   background: #1e2761;
   border: 0;

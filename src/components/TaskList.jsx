@@ -2,6 +2,7 @@
 
 import React from 'react';
 
+/* Task list component */
 function TaskList({ tasks }) {
   return (
     <ul>

@@ -1,6 +1,7 @@
 
 import React from 'react';
 
+/* Star rating component */
 function StarRating({ rating, max = 5 }) {
   return (
     <div className="star-rating">
