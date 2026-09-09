@@ -1,6 +1,7 @@
 import Header from './components/Header'
 import List from './components/List'
 import Footer from './components/Footer'
+import ClickButton from './components/ClickButton'
 import './App.css'
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <>
       <Header />
       <List />
+      <ClickButton />
       <Footer />
     </>
   )

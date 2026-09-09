@@ -1,9 +1,9 @@
 function List() {
     return (
         <section>
-            <h2>Att gora</h2>
+            <h2>Att göra</h2>
             <ul>
-                <li>Lara mig komponenter</li>
+                <li>Lära mig komponenter</li>
                 <li>Bygga med JSX</li>
                 <li>Importera i App</li>
             </ul>
